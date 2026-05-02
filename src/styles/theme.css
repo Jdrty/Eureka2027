@@ -1,0 +1,41 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+button {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #444444;
+}
+
+input, textarea {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border: 1px solid #333333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
